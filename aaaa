@@ -1,6 +1,0 @@
-@client.event
-async def on_member_join(member):
-  canal = client.get_channel("423328604911304708")
-  rules = client.get_channel("420612829838573588")
-  msg = "Welcome {}\n Read the rules {}".format(member.mention, ruless.mention)
-  await client.send_message(canal, msg)
